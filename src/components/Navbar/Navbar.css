@@ -45,4 +45,5 @@ ul {
         color: red;
         transform: scale(2);
         font-weight: bolder;
+        padding : 20px;
 }

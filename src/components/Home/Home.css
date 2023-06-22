@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@200;300&family=Poppins:wght@500&family=Ysabeau+SC&display=swap');
+
+body{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    height : 600px;
+}
+
+.details{
+    width : 70%;
+}
+
+.pic{
+    width : 30%;    
+}
+img{
+    padding : 10px;
+    height : 90%;
+    width : 90%;
+    border-radius: 40%;
+    box-shadow: 2px 2px 4px red;   
+}
+
+.Name{
+    padding : 100px 0 0 100px; 
+    position : relative;
+
+}
+
+.name{
+    font-size: 300%;
+    display: inline;
+}
+.tag{
+    position : relative;
+    margin-left : 50px;
+    margin-top : 20px;
+    font-size: 155%;
+}
+
+.icons{
+    margin-left: 150px;
+}
+
+.icon{
+    height: 8%;
+    width: 8%;
+    padding : 20px;
+    transition: transform .3s ease-out;
+}
+
+.icons-img{
+    padding : 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon:hover{
+    transform : scale(1.2);
+}
