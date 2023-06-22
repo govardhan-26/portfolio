@@ -38,4 +38,11 @@ ul {
     border: 1px solid White;
     border-radius: 5px;
     font-size: larger;
+    transition: transform .3s ease-in-out;
+}
+
+.links:hover a{
+        color: red;
+        transform: scale(2);
+        font-weight: bolder;
 }
