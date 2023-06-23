@@ -13,6 +13,7 @@ body{
 
 .details{
     width : 70%;
+    /* border: 1px solid indianred; */
 }
 
 .pic{
@@ -45,11 +46,14 @@ img{
 
 .icons{
     margin-left: 150px;
+    /* border: 1px solid red; */
+    width : 500px;
+    height : 250px;
 }
 
 .icon{
-    height: 8%;
-    width: 8%;
+    height: 15%;
+    width: 15%;
     padding : 20px;
     transition: transform .3s ease-out;
 }
@@ -58,8 +62,45 @@ img{
     padding : 20px;
     display: flex;
     flex-direction: row;
+    /* border: 1px solid pink; */
+
 }
 
 .icon:hover{
     transform : scale(1.2);
+}
+
+.resume{
+    /* border: 1px solid wheat; */
+    width : 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.res{
+    height: 50px;
+    width : 100px;
+    border : 1px solid white;
+    padding : 10px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 4px red;   
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    cursor: pointer;
+    transition: transform .3s ease-out;
+}
+
+.res > a{
+    text-decoration: none;
+    color : white;
+    font-size: larger;
+}
+
+.res:hover{
+    transform: scale(1.19);
 }
