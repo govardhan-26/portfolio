@@ -47,3 +47,21 @@ ul {
         font-weight: bolder;
         padding : 20px;
 }
+
+@media (max-width : 767px) {
+    .Nav{
+        height : 50px;
+    }
+    
+    .links > a{
+        color: aliceblue;
+        margin : 20px;
+        padding : 8px;
+        text-decoration: none;
+        border: 1px solid White;
+        border-radius: 5px;
+        font-size: medium;
+        transition: transform .3s ease-in-out;
+    }
+    
+}

@@ -104,3 +104,48 @@ img{
 .res:hover{
     transform: scale(1.19);
 }
+
+@media (max-width : 767px) {
+    .Container{
+        flex-direction: column;
+        width : 100%;
+        height : 100%;
+
+    }
+    .pic{
+        order : 1;
+        position : relative;
+        left : 35%;
+        margin-top : 5%;
+    }
+    .details{
+        order : 2;
+        width : 100%;
+
+    }
+    .Name{
+        padding : 10px;
+        margin-left: 5px;
+    }
+    .name{
+        margin-left : 40px; 
+        font-size: 170%;
+        width : 100%;
+    }
+    .tag{
+        font-size: medium;
+    }
+
+    .icons{
+        margin-left: 0px;
+    }
+
+    .icons-img{
+        margin-left: 50px;
+    }
+
+    .icon{
+        width: 10%;
+        height: 10%;
+    }
+}
