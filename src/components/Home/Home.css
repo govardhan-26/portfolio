@@ -141,11 +141,17 @@ img{
     }
 
     .icons-img{
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     .icon{
         width: 10%;
         height: 10%;
+    }
+
+    .res{
+        height : 30px;
+        width : 80px;
+        font-size: medium;
     }
 }
