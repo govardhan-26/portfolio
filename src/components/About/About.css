@@ -2,15 +2,37 @@
     color : white;
     height : 98vh;
     width : 97vw;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
 
+.abt {
+    /* border: 1px solid red; */
+    cursor: pointer;
+    padding : 20px 0 0 50px;
+    font-size : 300%;
+    color: white;
+    /* text-decoration : underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+     */
+} 
+
+b:hover{
+    color: red;
 }
 
 .abt-intro{
-    margin: 100px;
-    padding : 20px;
+    /* border: 1px solid red; */
+    margin: 0px 100px 100px 100px;
+    padding : 0px 20px 20px 20px;
 }
 
 .intro{
+    /* border: 1px solid red; */
     margin-left: 70px;
     font-size: 135%;
+}
+
+.tech{
+    padding-top: 60px;
 }
