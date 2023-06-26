@@ -1,0 +1,16 @@
+.abt-Container{
+    color : white;
+    height : 98vh;
+    width : 97vw;
+
+}
+
+.abt-intro{
+    margin: 100px;
+    padding : 20px;
+}
+
+.intro{
+    margin-left: 70px;
+    font-size: 135%;
+}
