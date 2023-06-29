@@ -35,17 +35,17 @@ img{
 
 .name{
     font-size: 300%;
-    display: inline;
+    /* display: inline; */
 }
 .tag{
     position : relative;
-    margin-left : 50px;
+    margin-left : 250px;
     margin-top : 20px;
-    font-size: 155%;
+    font-size: 220%;
 }
 
 .icons{
-    margin-left: 150px;
+    margin-left: 240px;
     /* border: 1px solid red; */
     width : 500px;
     height : 250px;
@@ -155,3 +155,56 @@ img{
         font-size: medium;
     }
 }
+
+
+.name{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .05em solid red; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+
+  /* .tag{
+    visibility: hidden;
+    animation: show-text 0s linear 3s forwards;
+  }
+
+  @keyframes show-text {
+    to {
+      visibility: visible;
+    }
+  }
+   */
+  .tag {
+    animation: falling 6s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes falling {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: red; }
+    50% { border-color: transparent; } 
+  }
