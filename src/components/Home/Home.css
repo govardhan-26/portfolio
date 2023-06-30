@@ -42,6 +42,7 @@ img{
     margin-left : 250px;
     margin-top : 20px;
     font-size: 220%;
+    width : 280px;
 }
 
 .icons{
@@ -168,6 +169,20 @@ img{
       blink-caret .75s step-end infinite;
   }
 
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: red; }
+        50% { border-color: transparent; } 
+      }
+    
+
   /* .tag{
     visibility: hidden;
     animation: show-text 0s linear 3s forwards;
@@ -179,7 +194,7 @@ img{
     }
   }
    */
-  .tag {
+  /* .tag {
     animation: falling 6s ease-in-out forwards;
     opacity: 0;
   }
@@ -193,18 +208,47 @@ img{
       opacity: 1;
       transform: translateY(0);
     }
-  }
+  } */
+
+.tag {
+		opacity: 0;
+		animation: text-visible 0.0001s linear forwards;
+		animation-delay: 1.5s;
+}
+
+.tag:after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: red;
+    animation: reveal 2s cubic-bezier(0.19, 1, 0.22, 1) ;
+    animation-delay: 1s;
+}
 
 
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: red; }
-    50% { border-color: transparent; } 
-  }
+@keyframes reveal {
+	0% {
+		left: 0;
+		width: 0%;
+	}
+	50% {
+		left: 0;
+		width: 100%;
+	}
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
+    
+@keyframes text-visible {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
