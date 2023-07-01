@@ -38,6 +38,16 @@
     font-size: 200%;  
   }
 
+  .list > ol > li > a{
+    text-decoration: none;
+    color: white;  
+  }
+
+  .list > ol > li > a:hover{
+    text-decoration: none;
+    color: red;  
+  }
+
 .slider{
     margin-top: 130px;
 }

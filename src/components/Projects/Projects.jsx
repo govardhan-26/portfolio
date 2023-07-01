@@ -23,28 +23,29 @@ const Projects = () => {
                 <div className='list'>
                 <h3>Projects</h3>
                 <ol>
-                    <li>Disney+ Hotstar Clone</li>
-                    <li>Restaurant Website</li>
-                    <li>Portfolio</li>
+                    <li><a href="https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git" target='_blanck'>Disney+ Hotstar Clone</a></li>
+                    <li><a href="https://github.com/govardhan-26/restaurant-website.git" target='_blanck'>Restaurant Website</a></li>
+                    <li><a href="https://github.com/govardhan-26/portfolio.git" target='_blanck'>Portfolio</a></li>
                 </ol>
                 </div>
             </div>
             <div className="project-slide">
                 <Slider {...settings} className='slider'>
                 <div className='wrap'>
-                    <a>
+                    <a href="https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git" target='_blanck'>
                     <img src={disney} alt="" />
                     </a>
                 </div>
 
                 <div className='wrap'>
-                    <a>
+                    <a href="https://github.com/govardhan-26/restaurant-website.git" target='_blanck'>
                     <img src={Restaurant} alt="" />
                     </a>
                 </div>
+                
 
                 <div className='wrap'>
-                    <a>
+                    <a href="https://github.com/govardhan-26/portfolio.git" target='_blanck'>
                     <img src={portfolio} alt="" />
                     </a>
                 </div>
