@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fasthand&family=Manrope:wght@200&family=Montserrat:wght@200;300&family=Poppins:wght@500&family=Ysabeau+SC&display=swap');
+
+.con-Container{
+    height : 98vh;
+    width : 97vw;
+    color: white;    
+}
+
+ /* border : 1px solid red; */
+
+
+.Contain{
+    height : 100%;
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.touch{
+    width : 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.talk{
+    height: 70%;
+    width: 79%;
+    
+}
+
+.talk > h1{
+    font-size: 400%;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.talk > p{
+    font-size: 175%;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.form-email{
+    font-family: 'Dancing Script', cursive;
+    
+    text-decoration: none;
+    color: gray;
+    text-transform: lowercase;
+}
+
+.form-find{
+    font-size: 250%;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.find-me > li{
+    list-style-type: none;
+    position: relative;
+    font-size: 200%;
+    font-family: 'Dancing Script', cursive;
+    margin : 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.find-me > li > a{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+} 
+
+.form-icon{
+    cursor: pointer;
+    padding: 0;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    left : 20px;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.con-form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-send{
+    color: aliceblue;
+    font-size: 200%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width : 60%;
+    height : 70%;
+}
+
+form > input{
+    border-radius: 5px;
+    height : 2rem;
+    box-shadow: 2px 2px 4px red;   
+    background-color: black;
+    color: aliceblue;
+}
+
+textarea{
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px red;   
+    background-color: black;
+    color: aliceblue
+}
+
+.form-submit{
+    width : 50%;
+    position: relative;
+    left : 50%;
+    top : 30px;
+    cursor: pointer;
+}
