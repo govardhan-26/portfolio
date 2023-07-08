@@ -90,3 +90,41 @@
 .wrap > a > img{
     border-radius: 50px;
 }
+
+@media(max-width : 767px){
+    .projects{
+        flex-direction: column-reverse;
+        width : 89vw;
+        height  : 96vh;
+    }
+    .project-slide{
+        margin : 0;
+        padding: 0;
+        width : 100%;
+        margin-top : 80px;
+        
+    }
+    .project-list{
+        font-size: small;
+        width : 89vw;
+        margin : 0;
+        padding: 0;
+    }
+
+    .list{
+        margin: 0;
+        padding : 0;
+    }
+    .slider{
+        margin: 0;
+        width : 100%;
+    }
+    
+    .slider .slick-prev {
+        left: -10px;
+    }
+    
+    .slider .slick-next {
+        right: -10px;
+    }
+}

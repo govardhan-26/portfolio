@@ -17,7 +17,7 @@ const Projects = () => {
         autoplay: true,
       };
   return (
-    <div className='pro-Container'>
+    <div className='pro-Container' id='Projects'>
         <div className="projects">
             <div className="project-list">
                 <div className='list'>

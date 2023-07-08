@@ -36,3 +36,16 @@ b:hover{
 .tech{
     padding-top: 60px;
 }
+
+
+@media(max-width : 767px){
+    .abt-intro{
+        font-size: small;
+        margin : 0;
+        padding: 0;
+        width : 89vw;
+    }
+    .intro{
+        margin : 26px;
+    }
+}
