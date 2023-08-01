@@ -1,8 +1,9 @@
 .abt-Container{
     color : white;
-    height : 98vh;
+    height : 86vh;
     width : 97vw;
     /* border: 1px solid rgb(255, 0, 0); */
+    padding-top: 99px;
 }
 
 .abt {

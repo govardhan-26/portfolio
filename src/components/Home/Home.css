@@ -9,6 +9,7 @@ body{
     flex-direction: row;
     color: aliceblue;
     height : 650px;
+    padding-top: 99px;
 }
 
 .details{
@@ -36,7 +37,7 @@ img{
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
         animation: mainFadeIn 2s forwards;
-        animation-delay: 1.6s;
+        animation-delay: 0.3s;
         opacity: 0;
         display: flex;
         align-items: baseline;
@@ -59,9 +60,9 @@ img{
       .block {
         width: 0%;
         height: inherit;
-        background: #ffb510;
+        background: red;
         position: absolute;
-        animation: mainBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+        animation: mainBlock 1s cubic-bezier(.74, .06, .4, .92) forwards;
         display: flex;
       }
 
@@ -73,7 +74,7 @@ img{
           -moz-border-radius: 50%;
           border-radius: 50%;
 
-          background: #ffb510;
+          background: red;
           -webkit-animation: load 0.6s cubic-bezier(.74, .06, .4, .92) forwards;
           animation: popIn 0.8s cubic-bezier(.74, .06, .4, .92) forwards;
           animation-delay: 2s;
@@ -101,14 +102,14 @@ img{
       height: inherit;
       background: #e91e63;
       position: absolute;
-      animation: secBlock 2s cubic-bezier(.74, .06, .4, .92) forwards;
+      animation: secBlock 1s cubic-bezier(.74, .06, .4, .92) forwards;
       animation-delay: 2s;
       display: flex;
     }
   }
   .tag > p {
-    animation: secFadeIn 2s forwards;
-    animation-delay: 3.2s;
+    animation: secFadeIn 1s forwards;
+    animation-delay: 2.5s;
     opacity: 0;
   }
 
@@ -160,14 +161,14 @@ img{
     0% {
       width: 0px;
       height: 0px;
-      background: #e9d856;
+      background: red;
       border: 0px solid #ddd;
       opacity: 0;
     }
     50% {
       width: 10px;
       height: 10px;
-      background: #e9d856;
+      background: red;
       opacity: 1;
       bottom: 45px;
     }
