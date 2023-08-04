@@ -33,19 +33,19 @@
 .talk > h1{
     font-size: 400%;
     margin: 0;
-    font-family: 'Dancing Script', cursive;
+    
 
 }
 
 .talk > p{
     font-size: 175%;
     font-style: italic;
-    font-family: 'Dancing Script', cursive;
+    
 
 }
 
 .form-email{
-    font-family: 'Dancing Script', cursive;
+    
     
     text-decoration: none;
     color: gray;
@@ -54,7 +54,7 @@
 
 .form-find{
     font-size: 250%;
-    font-family: 'Dancing Script', cursive;
+    
 
 }
 
@@ -62,7 +62,7 @@
     list-style-type: none;
     position: relative;
     font-size: 200%;
-    font-family: 'Dancing Script', cursive;
+    
     margin : 15px;
     display: flex;
     flex-direction: row;
