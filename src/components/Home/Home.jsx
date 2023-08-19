@@ -35,7 +35,7 @@ const Home = () => {
             </div>
         </div>
         <div className='pic'>
-            <img src={Govardhan}/>
+            <img src={Govardhan} loading="lazy"/>
         </div>
     </div>
   )
