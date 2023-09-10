@@ -9,18 +9,25 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: center;
     color: aliceblue;
     height : 87vh;
+    height : 87vh;
     padding-top: 99px;
+    /* border: 1px solid indianred; */
+  }
     /* border: 1px solid indianred; */
   }
 
 .details{
     width : fit-content;
+    width : fit-content;
     /* border: 1px solid indianred; */
+  }
   }
 
 .pic{
+    margin-left: 10%;
     margin-left: 10%;
     width : 30%;    
 }
