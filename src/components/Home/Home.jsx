@@ -11,15 +11,15 @@ const Home = () => {
     <div className='Container' id='Home'>
         <div className='details'>
             <div className='Name'>
-            <p className='greet'>Hello World!  My Name is </p>  
-            <div className='name'>
-                <span class="block"></span>  
-                <p>Govardhan Rao Naidu<span></span></p>
-            </div>
-            <div class="tag">
-                <div class="block"></div>
-                <p>I am a Developer...</p>
-            </div>
+                <p className='greet'>Hello World!  My Name is </p>  
+                <div className='name'>
+                    <span class="block"></span>  
+                    <p>Govardhan Rao Naidu<span></span></p>
+                </div>
+                <div class="tag">
+                    <div class="block"></div>
+                    <p>I am a Developer...</p>
+                </div>
             </div>
             <div className='icons'>
                 <div className='icons-img'>
@@ -35,7 +35,9 @@ const Home = () => {
             </div>
         </div>
         <div className='pic'>
+            <div className='gova-pic'>
             <img src={Govardhan}/>
+            </div>
         </div>
     </div>
   )

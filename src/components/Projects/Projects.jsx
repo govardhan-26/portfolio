@@ -19,37 +19,49 @@ const Projects = () => {
   return (
     <div className='pro-Container' id='Projects'>
         <div className="projects">
-            <div className="project-list">
-                <div className='list'>
-                <h3>Projects</h3>
-                <ol>
-                    <li><a href="https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git" target='_blanck'>Disney+ Hotstar Clone</a></li>
-                    <li><a href="https://github.com/govardhan-26/restaurant-website.git" target='_blanck'>Restaurant Website</a></li>
-                    <li><a href="https://github.com/govardhan-26/portfolio.git" target='_blanck'>Portfolio</a></li>
-                </ol>
-                </div>
-            </div>
             <div className="project-slide">
                 <Slider {...settings} className='slider'>
-                <div className='wrap'>
-                    <a href="https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git" target='_blanck'>
-                    <img src={disney} alt="" />
-                    </a>
-                </div>
+                    <div className='wrap'>
+                        <a href="https://github.com/govardhan-26/Disneyplus-Hotstar-Clone.git" target='_blanck'>
+                        <img src={disney} alt="" />
+                        </a>
+                    </div>
 
-                <div className='wrap'>
-                    <a href="https://github.com/govardhan-26/restaurant-website.git" target='_blanck'>
-                    <img src={Restaurant} alt="" />
-                    </a>
-                </div>
-                
+                    <div className='wrap'>
+                        <a href="https://github.com/govardhan-26/restaurant-website.git" target='_blanck'>
+                        <img src={Restaurant} alt="" />
+                        </a>
+                    </div>
+                    
 
-                <div className='wrap'>
-                    <a href="https://github.com/govardhan-26/portfolio.git" target='_blanck'>
-                    <img src={portfolio} alt="" />
-                    </a>
-                </div>
+                    <div className='wrap'>
+                        <a href="https://github.com/govardhan-26/portfolio.git" target='_blanck'>
+                        <img src={portfolio} alt="" />
+                        </a>
+                    </div>
                 </Slider>
+            </div>
+            <div className="project-list">
+                <h2>Projects</h2>
+                <div className='project'>
+                    <h3 style={{ textAlign : "center" }}>Disney+Hotstar Clone</h3>
+                    <p>A web application designed to replicate the Disney+ Hotstar streaming platform's user interface. </p>
+                    <a href='https://disneyplus-hotstar-clone.vercel.app/' target='_blanck' className='pro-link'>View Project</a>
+                    <p><b>Tech Stack Used :</b> ReactJs, ReduxJs, Firebase</p>
+
+                </div>
+                <div className='project'>
+                    <h3 style={{ textAlign : "center" }}>Restaurant Website</h3>
+                    <p>A visually appealing static website for managing a Restaurant with pages for menu, contact and about Restaurant.</p>
+                    <a href='https://restaurent-website.vercel.app/' target='_blanck' className='pro-link'>View Project</a>
+                    <p><b>Tech Stack Used :</b> ReactJs, CSS</p>
+                </div>
+                <div className='project'>
+                    <h3 style={{ textAlign : "center" }}>Personal Portfolio</h3>
+                    <p>A web application which showcases my work, my education and everything about me.</p>
+                    <a href='http://govardhan26.vercel.app/' target='_blanck' className='pro-link'>View Project</a>
+                    <p><b>Tech Stack Used :</b> ReactJs, CSS</p>
+                </div>
             </div>
         </div>        
     </div>

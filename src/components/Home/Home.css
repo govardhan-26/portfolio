@@ -34,7 +34,7 @@ img{
 
 .Name{
     width:fit-content;
-    padding : 100px 0 0 100px; 
+    padding : 50px 0 0 100px; 
     position : relative;
 
 }
@@ -47,7 +47,6 @@ img{
         display: flex;
         align-items: baseline;
         position: relative;
-
 }
 
 .name{
@@ -275,37 +274,49 @@ img{
         flex-direction: column;
         width : 100%;
         height : 100%;
+        display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0;
         /* border : 2px solid white; */
     }
     .pic{
         order : 1;
-        position : relative;
-        left : 35%;
-        margin-top : -7%;
+        /* position : relative; */
+        /* left : 35%; */
+        /* margin-top : -7%; */
+        top : 0;
+        margin: 0;
     }
     .details{
         /* border : 2px solid white;       */
         order : 2;
         width : 100%;
-
+        align-items: center;
+    }
+    .Name > p{
+      width: fit-content;
     }
     .Name{
         padding : 10px;
-        margin-left: 5px;
+        /* margin-left: 5px; */
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .name{
         margin-left : 40px; 
         font-size: 170%;
-        width : 100%;
     }
     .tag{
         font-size: medium;
+        width: fit-content;
     }
 
     .icons{
         margin-left: 0px;
+
     }
 
     .icons-img{
@@ -325,3 +336,87 @@ img{
 }
 
 
+@media(max-width : 480px){
+  .Container{
+    padding : 0;
+    padding-top:16%;
+    border: 1px solid white;
+    width : 100vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width : 100%;
+    margin : 0;
+    /* border : 1px solid white; */
+
+  }
+  .gova-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+  }
+
+  .details{
+    width : 100%;
+    /* border : 1px solid red; */
+    height : 100%;
+    margin : 1px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Name{
+   /* border : 1px solid violet; */
+   width : 95%; 
+   height: auto;
+  }
+
+  .icons{
+    width : 100%;
+    /* border : 1px solid violet; */
+    height : 100%;
+    margin : 3px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+  }
+
+  .resume{
+    margin : 0;
+    height: 100%;
+    width : 100%;
+    padding-top: 1%;
+    margin-left: 0;
+    /* border : 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .res{
+    margin : 0;
+  }
+
+  .icons-img{
+    width : 88%;
+    height : 50%;
+    margin : 0;
+    padding-top : 0;
+    padding-bottom : 0;
+    /* border : 1px solid white; */
+    & > a > img{
+      height: auto;
+      width: 90%;
+      border-radius: 40%;
+      box-shadow: 2px 2px 4px red;
+    }
+  }
+}

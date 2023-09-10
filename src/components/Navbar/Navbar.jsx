@@ -1,9 +1,11 @@
 import React from 'react'
 import './Navbar.css'
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
     <section className='navbar'>
+        <img src={logo} alt="Logo" className='logo'/>  
         <nav className='Nav'>
         <ul className="nav-links">
             <li className="links"><a href="#Home">Home</a></li>

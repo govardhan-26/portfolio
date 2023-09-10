@@ -41,6 +41,14 @@ const Contact = () => {
                         <li><a href='https://twitter.com/Govardhan2607?t=x2H5N0d9W68BWSJJFOD4uw&s=09' target='_blanck'>Twitter <img src={Twitter} alt="Twitter" className='form-icon'/></a></li>
                         <li><a href='https://www.linkedin.com/in/govardhan26/' target='_blanck'>Linkedin <img src={Linkedin} alt="Linkedin" className='form-icon'/></a></li>
                     </div>
+                    <div className='find-me-mobile'> 
+                        <p className='form-find'>You Can Find me on</p>
+                        <div className='find-icons'>
+                        <li><a href='https://instagram.com/govardhan_26.07?igshid=ZDc4ODBmNjlmNQ==' target='_blanck'><img src={Instagram} alt="Instagram" className='form-icon'/></a></li>
+                        <li><a href='https://twitter.com/Govardhan2607?t=x2H5N0d9W68BWSJJFOD4uw&s=09' target='_blanck'><img src={Twitter} alt="Twitter" className='form-icon'/></a></li>
+                        <li><a href='https://www.linkedin.com/in/govardhan26/' target='_blanck'><img src={Linkedin} alt="Linkedin" className='form-icon'/></a></li>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='con-form'>

@@ -1,16 +1,17 @@
 .abt-Container{
     margin : 0;
     color : white;
-    height : 86vh;
+    height : 93vh;
     width : 97vw;
     /* border: 1px solid rgb(255, 0, 0); */
-    padding-top: 99px;
+    padding-top: 1.5%;
+    
 }
 
 .abt {
     /* border: 1px solid red; */
     cursor: pointer;
-    padding : 20px 0 0 50px;
+    padding : 0px 0 0 50px;
     font-size : 300%;
     color: white;
     /* text-decoration : underline;
@@ -26,7 +27,7 @@ b:hover{
 .abt-intro{
     /* border: 1px solid red; */
     margin: 0px 100px 100px 100px;
-    padding : 0px 20px 20px 20px;
+    /* padding : 0px 20px 20px 20px; */
 }
 
 .intro{
@@ -36,7 +37,7 @@ b:hover{
 }
 
 .tech{
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 
@@ -49,5 +50,38 @@ b:hover{
     }
     .intro{
         margin : 26px;
+    }
+}
+
+@media(max-width : 480px)
+{
+    .abt-Container{
+        height : 91vh;
+        width : 100vw;
+        border: 1px solid white;
+        padding : 0;
+        margin: 0;
+        padding-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        & > h2{
+            margin: 0;
+            padding: 0%;
+        }
+    }
+    .abt-intro{
+        font-size: 65%; 
+        /* border: 1px solid white; */
+        margin : 0;
+        padding: 0;
+        height : 100%;
+        width : 89vw;
+    }
+    .tech{
+        margin : 0;
+        padding: 0;
+        margin-top : 15%;
+
     }
 }

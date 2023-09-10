@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fasthand&family=Manrope:wght@200&family=Montserrat:wght@200;300&family=Poppins:wght@500&family=Ysabeau+SC&display=swap');
 
 .con-Container{
-    height : 98vh;
+    height : 82vh;
     width : 97vw;
     color: white;    
+    /* border : 1px solid red; */
+    margin-top: 4%;
 }
-
- /* border : 1px solid red; */
 
 
 .Contain{
@@ -14,20 +14,20 @@
     width : 100%;
     display: flex;
     flex-direction: row;
+    /* border : 1px solid red; */
 }
 
 .touch{
     width : 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
 
 .talk{
     height: 70%;
     width: 79%;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .talk > h1{
@@ -45,17 +45,18 @@
 }
 
 .form-email{
-    
-    
     text-decoration: none;
-    color: gray;
+    color: rgb(255, 0, 255);
     text-transform: lowercase;
 }
 
 .form-find{
     font-size: 250%;
-    
+    margin : 0;
+}
 
+.find-me{
+    margin : 0;
 }
 
 .find-me > li{
@@ -93,7 +94,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .form-send{
@@ -130,7 +130,10 @@ textarea{
     top : 30px;
     cursor: pointer;
 }
-
+.find-me-mobile
+{
+    display: none;
+}
 @media(max-width : 767px){
     .Contain{
         font-size: 60%;
@@ -170,5 +173,45 @@ textarea{
     }
     form{
         width: 80%;
+    }
+}
+
+@media(max-width : 480px){
+    .con-Container{
+        height : 100vh;
+        width : 100vw;
+        border : 1px solid white;
+        margin: 0;
+    }
+
+    .find-me{
+        display: none;
+    }
+
+    .talk > p {
+        text-align: center;
+    }
+    .Contain{
+        width : 100%;
+    }
+    .touch{
+        width : 100%;
+    }
+    .find-me-mobile{
+        height: 100%;
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .find-icons{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: -10%;
+    }
+    li{
+        list-style: none;
     }
 }
