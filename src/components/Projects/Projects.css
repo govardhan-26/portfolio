@@ -3,8 +3,8 @@
     color : white;
     height : 92vh;
     width : 97vw;
-    margin-top : 3.5%;
     overflow: hidden;
+    padding-top:3.5%;
 }
 
 .projects
@@ -181,18 +181,18 @@
     .pro-Container{
         width : 100vw;
         height : 100vh;
-        border : 1px solid white;
+        /* border : 1px solid white; */
         margin : 0;
     }
 
     .projects{
         width : 100%;
         height: 100%;
-        border : 1px solid white;
+        /* border : 1px solid white; */
     }
 
     .project-slide{
-        border : 1px solid white;
+        /* border : 1px solid white; */
         width : 100%;
         display: none;
     }

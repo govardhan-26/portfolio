@@ -58,7 +58,7 @@ b:hover{
     .abt-Container{
         height : 91vh;
         width : 100vw;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         padding : 0;
         margin: 0;
         padding-top: 10vh;

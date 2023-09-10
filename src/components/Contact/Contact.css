@@ -180,9 +180,11 @@ textarea{
     .con-Container{
         height : 100vh;
         width : 100vw;
-        border : 1px solid white;
-        margin: 0;
+        /* border : 1px solid white; */
+        margin-top: 3%;
     }
+
+
 
     .find-me{
         display: none;
@@ -190,6 +192,10 @@ textarea{
 
     .talk > p {
         text-align: center;
+    }
+    .talk>h1{
+        text-align: center;
+        margin: 0;
     }
     .Contain{
         width : 100%;
