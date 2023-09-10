@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <div className='con-Container' id='Contact'>
-        <Toaster />
+        {/* <Toaster /> */}
         <div className='Contain'>
             <div className='touch'>
                 <div className='talk'>

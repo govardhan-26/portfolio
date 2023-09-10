@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fasthand&family=Manrope:wght@200&family=Montserrat:wght@200;300&family=Poppins:wght@500&family=Ysabeau+SC&display=swap');
 
 .con-Container{
-    height : 82vh;
+    height : 100vh;
     width : 97vw;
     color: white;    
     /* border : 1px solid red; */
-    margin-top: 4%;
+    padding-top: 7%;
 }
 
 
@@ -94,6 +94,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .form-send{
@@ -114,6 +115,10 @@ form > input{
     box-shadow: 2px 2px 4px red;   
     background-color: black;
     color: aliceblue;
+}
+
+form *{
+    padding : 3%;
 }
 
 textarea{

@@ -1,5 +1,13 @@
 body{
+    height : 100vh;
+    width : 98vw;
+
     /* global 94%+ browsers support */
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 4%, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 1) 13%, rgba(0, 0, 0, 1) 17%, rgba(0, 0, 0, 1) 22%, rgba(0, 0, 0, 1) 27%, rgba(0, 0, 0, 1) 32%, rgba(0, 0, 0, 1) 38%, rgba(0, 0, 0, 1) 45%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 57%, rgba(0, 0, 0, 1) 63%, rgba(0, 0, 0, 1) 69%, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 1) 83%, rgba(0, 0, 0, 1) 92%, rgba(0, 0, 0, 1) 100%);
 }
             
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
