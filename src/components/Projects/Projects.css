@@ -1,10 +1,11 @@
 
 .pro-Container{
     color : white;
-    height : 92vh;
-    width : 97vw;
+    height : 100vh;
+    width : 98vw;
     overflow: hidden;
     padding-top:3.5%;
+    /* border: 1px solid white; */
 }
 
 .projects
