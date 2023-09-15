@@ -29,13 +29,13 @@
 }
 
 .slider{
-    width : 90%;
+    width : 53%;
     height : 90%;
     /* border: 1px solid white; */
 }
 
 .wrap > a >img{
-    width : 85vw;
+    width : 50vw;
     height : 45vh;
     margin : 0;
 }
@@ -94,6 +94,7 @@
 }
 
 .project{
+    font-size: 140%;
     border : 1px solid red;
     box-sizing: border-box;
     box-shadow: 2px 2px 20px red;  
